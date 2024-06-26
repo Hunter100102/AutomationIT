@@ -5,6 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services | AutomateIT</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional Styles for Services Page */
+        .services {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .service {
+            margin-bottom: 40px;
+        }
+
+        .service img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .service p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            text-align: left;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,18 +41,29 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="services.html">Services</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <!--<li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="blog.html">Blog</a></li>-->
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
     <section class="services">
         <h1>Our Services</h1>
-        <h2>Custom Automation</h2>
-        <p>We provide custom automation solutions tailored to your business needs...</p>
-        <h2>Website Development</h2>
-        <p>Our team designs and develops professional websites...</p>
+
+        <div class="service">
+            <img src="images/process-automation.jpg" alt="Process Automation">
+            <h2>Process Automation</h2>
+            <p>Streamline your business operations with our process automation solutions. We identify repetitive tasks, implement automation scripts, and integrate systems to optimize workflow efficiency and reduce manual errors.</p>
+        </div>
+
+        <div class="service">
+            <img src="images/custom-websites.jpg" alt="Custom Websites">
+            <h2>Custom Websites</h2>
+            <p>Enhance your online presence with a custom-designed website tailored to your brand and business goals. From responsive designs to interactive features, we create websites that engage visitors and drive conversions.</p>
+        </div>
+
+        <!-- Add more services as needed -->
+
     </section>
     <footer>
         <p>&copy; 2024 AutomateIT. All rights reserved.</p>
